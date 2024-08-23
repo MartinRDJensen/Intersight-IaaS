@@ -1,3 +1,4 @@
+/*
 terraform {
   required_providers {
     intersight = {
@@ -11,4 +12,4 @@ provider "intersight" {
   apikey    = ""
   secretkey = ""
   endpoint  = "https://eu-central-1.intersight.com"
-}
+}*/
