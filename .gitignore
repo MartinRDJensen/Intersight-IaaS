@@ -1,0 +1,6 @@
+Terraform-based-IaaS-legacy-SecretKey.pem
+terraform.tfstate.*
+terraform.tfstate
+Terraform-based-IaaS-SecretKey.txt
+/.terraform
+main.tf
