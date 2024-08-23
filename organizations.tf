@@ -12,6 +12,9 @@ resource "intersight_resource_group" "dc_rg" {
     object_type = "iam.Account"
     moid        = data.intersight_iam_account.account.moid
   }
+
+  qualifier = "Allow-All"
+
 }
 
 resource "intersight_resource_group" "rentee_rg" {
